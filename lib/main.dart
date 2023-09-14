@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.red),
         useMaterial3: true,
       ),
-      home: const HomePage(title: 'shoreBird app'),
+      home: const HomePage(title: 'shoreBird app udates'),
     );
   }
 }
@@ -38,7 +38,7 @@ class _HomePageState extends State<HomePage> {
       ),
       body: const Center(
         child: Text(
-          'New version from code magic',
+          'New version from code magic ',
           style: TextStyle(color: Colors.black, fontSize: 22),
         ),
       ),
